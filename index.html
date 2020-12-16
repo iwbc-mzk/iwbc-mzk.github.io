@@ -4,7 +4,15 @@
 </head>
 <script>
   var ua = window.navigator.userAgent;
-  alert(ua);
+  var screenWidth = screen.width;
+  var screenHeight = screen.height;
+
+  document.write("<p>User Agent:</p>");
+  document.write(ua);
+  document.write("<p>Screen Width:</p>");
+  document.write(screenWidth);
+  document.write("<p>Screen Height:</p>");
+  document.write(screenHeight);
 </script>
 <body>
   <h1>-window.navigator.userAgent- Test</h1>
